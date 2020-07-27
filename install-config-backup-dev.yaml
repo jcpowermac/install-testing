@@ -1,0 +1,16 @@
+apiVersion: v1
+baseDomain: devcluster.openshift.com
+metadata:
+  name: jcallen-aws38
+platform:
+  vsphere:
+    vcenter: "vcenter.sddc-44-233-241-153.vmwarevmc.com"
+    username: 'jcallen'
+    password: ''
+    datacenter: SDDC-Datacenter
+    defaultDatastore: WorkloadDatastore
+    cluster: "Cluster-1"
+    network: "dev"
+pullSecret: |
+
+sshKey: |
